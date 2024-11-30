@@ -1,0 +1,94 @@
+body{
+	background: url(logo.png) no-repeat center #e7e7e9;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+
+}
+#container{
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+	border: solid black;
+	background: url(dummy.png) no-repeat aliceblue;
+	}
+#header{
+	
+	background: url(dummy.png) no-repeat aliceblue;
+	height: 300px;
+	border-bottom: 15px solid black;
+	padding-top: 20px;
+	text-align: right;
+	color: #fff;
+	padding-right: 12px;
+}
+#content
+{
+	margin: 0 205px 0 0;
+	background-color:aliceblue ;
+	padding-top: 20px;
+	text-align: justify;
+}
+
+.insidecontent p
+{
+	margin: 0 20px 15px 20px;
+}
+
+.insidecontent h3
+{
+	height: 30px;
+	margin: 0;
+	padding: 0;
+}
+.insidecontent h3 span
+{
+	margin: 0;
+	padding: 20px;
+}
+
+#footer
+{
+	border-top: 15px solid #e7e7e9;
+	padding: 10px 15px 10px 10px;
+	text-align: right;
+
+}
+
+#linkList
+{
+	padding: 0;
+	margin: 0;
+	width: 190px;
+	position: absolute;
+	top: 350px;
+	right: 0;
+	text-decoration: none;
+}
+#linkList ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#linkList li
+{
+	padding: 8px 0 7px 12px;
+	margin: 0; 
+	line-height: 160%;
+	border-bottom: 1px solid black;
+/*	text-decoration: none;*/
+}
+
+#linkList li a
+{
+	color: black;
+	font: bold 110% arial;
+}
+
+#linkList li:hover
+{
+	background-color: silver;
+	text-decoration: none;
+}
